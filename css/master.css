@@ -11,7 +11,7 @@
     clear: both;
 }
 
-.body {
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,7 +20,7 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-/* inizio container header: logo + navbar */
+/* inizio container HEADER: logo + navbar */
 .header {
     height: 80px;
     padding: 10px;
@@ -46,7 +46,6 @@
 }
 
 #navbar li {
-    font-family: 'Open Sans', sans-serif;
     float: left;
     list-style: none;
     font-size: 15px;
@@ -58,31 +57,61 @@
 #navbar li:hover {
     cursor: pointer;
 }
-/* fine container header */
+/* fine container HEADER */
+/* inizio container FIRST */
 .first {
     background-color: #425b76;
+}
+
+.first .container p {
+    width: 83%;
+    padding: 20px 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    float: left;
+}
+
+.btn-wb {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #33475b;
+    float: right;
+}
+
+.first .container span:first-of-type {
+    font-weight: 700;
+}
+
+/* fine container FIRST */
+/* inizio container SECOND */
+.second {
+    background-image: url('#');
+}
+/* fine container SECOND */
+/* inizio container THIRD */
+.third {
+    background-color: #f5f8fa;
 }
 
 .container.small {
     width: 70%;
 }
-
-.second {
-    background-image: url('#');
-}
-
-.third {
-    background-color: #f5f8fa;
-}
-
+/* fine container THIRD */
+/* inizio container FOURTH */
 .fourth {
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);:
 }
-
+/* fine container FOURTH */
+/* inizio container FIFTH */
 .fifth {
     background-color: #ffffff;
 }
-
+/* fine container FIFTH */
+/* inizio container SIXTH */
 .sixth {
     background-color: #33475b;
 }
@@ -90,3 +119,4 @@
 footer {
     border-top: 1px solid #7c98b6;
 }
+/* fine container SIXTH */
