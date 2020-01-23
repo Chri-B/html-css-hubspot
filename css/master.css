@@ -63,13 +63,16 @@ body {
     background-color: #425b76;
 }
 
+.first .container {
+    position: relative;
+}
+
 .first .container p {
     width: 83%;
-    padding: 20px 30px;
+    padding: 25px 30px;
     color: white;
     font-size: 15px;
-    font-weight: 200;
-    float: left;
+    font-weight: 300;
 }
 
 .btn-wb {
@@ -79,11 +82,14 @@ body {
     padding: 10px 25px;
     font-size: 15px;
     color: #33475b;
-    float: right;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
-.first .container span:first-of-type {
-    font-weight: 700;
+.first .container span {
+    font-weight: 600;
 }
 
 /* fine container FIRST */
