@@ -224,6 +224,10 @@ h1 {
     color: #33475b;
 }
 
+.content h4 {
+    padding: 10px 0;
+}
+
 .box.clearfix h4 {
     margin-bottom: 30px;
     padding-top: 40px;
@@ -236,7 +240,7 @@ h1 {
     line-height: 25px;
 }
 
-#testo-linea {
+.testo-linea {
     font-weight: normal;
     text-transform: uppercase;
     font-size: 14px;
@@ -254,7 +258,7 @@ h1 {
     padding-right: 5px;
 }
 
-.lista ul li:nth-child(even) {
+.lista.orizzontale ul li:nth-child(even) {
     padding: 0 20px;
 }
 
@@ -269,6 +273,28 @@ h1 {
     padding: 30px;
 }
 
+.content img {
+    height: 150px;
+}
+
+.content p {
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.content ul li {
+    list-style: none;
+}
+
+.content .lista{
+    text-align: justify;
+}
+
+.content .btn-wo {
+    margin: 30px auto 10px;
+}
+
 #card-centrale {
     margin: 30px 10px 0;
 }
@@ -280,15 +306,6 @@ h1 {
 #card-destra {
     margin: 30px 0 0 20px;
 }
-.content img {
-    height: 150px;
-}
-
-.content .lista{
-    text-align: justify;
-}
-
-
 /* fine container THIRD */
 /* inizio container FOURTH */
 .fourth {
