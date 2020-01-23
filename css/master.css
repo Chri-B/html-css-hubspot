@@ -11,12 +11,54 @@
     clear: both;
 }
 
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
 }
+/* inizio container header: logo + navbar */
+.header {
+    height: 80px;
+    padding: 10px;
+    line-height: 60px;
+    text-transform: capitalize;
+    overflow-y: hidden; /* overflow per sporgenza div logo */
+}
+/* inserimento margine per centraggio logo */
+.header img {
+    margin: 15px 0;
+}
 
+#logo {
+    float: left;
+}
+
+#navbar {
+    float: right;
+}
+
+#navbar .symbol {
+    color: #7c98b6;
+}
+
+#navbar li {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 30px;
+    color: #33475b;
+}
+
+#navbar li:hover {
+    cursor: pointer;
+}
+/* fine container header */
 .first {
     background-color: #425b76;
 }
@@ -43,4 +85,8 @@
 
 .sixth {
     background-color: #33475b;
+}
+
+footer {
+    border-top: 1px solid #7c98b6;
 }
