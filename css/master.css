@@ -15,11 +15,26 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
 }
+/* barra fissa top */
+.btn-wo {
+    color: white;
+    background-color: #ff7a59;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 8px 20px;
+}
+/* fine barra fissa top */
 /* inizio container HEADER: logo + navbar */
 .header {
     height: 80px;
@@ -80,12 +95,17 @@ body {
     border: none;
     border-radius: 3px;
     padding: 10px 25px;
+    margin-right: 15px;
     font-size: 15px;
-    color: #33475b;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+}
+
+.btn-wb a {
+    text-decoration: none;
+    color: #33475b;
 }
 
 .first .container span {
@@ -95,21 +115,184 @@ body {
 /* fine container FIRST */
 /* inizio container SECOND */
 .second {
-    background-image: url('#');
+    background-color: #fff2ee; /* ho utilizzato il colore perchè il link dello sfondo mi dava una pagina vuota */
 }
+
+.second .jumbotron {
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg');
+    width: 37%;
+    padding: 80px 0 100px;
+}
+
+h1 {
+    color: #33475b;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.second .jumbotron p {
+    color: #33475b;
+    font-weight: 300;
+}
+
+.btn-big {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 25px 50px;
+    margin: 20px 0;
+}
+
+.second .jumbotron p:last-child {
+    width: 50%;
+    font-size: 12px;
+}
+
 /* fine container SECOND */
+/* inizio container COLOR */
+#color {
+    height: 80px;
+    background-image: linear-gradient(45deg, #afebe4, #00a48d);
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+}
+/* fine container COLOR */
 /* inizio container THIRD */
+/* div powerful */
 .third {
     background-color: #f5f8fa;
+    padding-bottom: 150px;
 }
 
 .container.small {
-    width: 70%;
+    width: 55%;
+    text-align: center;
 }
+
+.powerful {
+    padding-top: 100px;
+}
+
+.powerful img {
+    width: 260px;
+}
+
+.powerful h2 {
+    color: #33475b;
+    font-size: 30px;
+}
+
+.powerful p {
+    width: 80%;
+    color: #33475b;
+    font-weight: 300;
+    padding: 30px 0 50px;
+    margin: 0 auto;
+}
+/* div free-hub */
+.free-hub {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.cta-libro {
+    width: 40%;
+    padding: 50px 0;
+    float: left;
+}
+
+.btn-medium {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 12px 25px;
+    margin-top: 50px;
+}
+
+.cta-libro img {
+    width: 154px;
+}
+
+.popular-features {
+    width: 60%;
+    float: left;
+    text-align: left;
+    color: #394c60;
+}
+
+.titolo-carte {
+    font-size: 20px;
+    font-weight: 600;
+    color: #33475b;
+}
+
+.box.clearfix h4 {
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+.testo-carte {
+    color: #394c60;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#testo-linea {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px 0 10px;
+}
+
+.popular-features .lista ul li{
+    display: inline-block;
+    font-size: 14px;
+}
+
+.check-orange {
+    font-size: 30px;
+    color: #ff7a59;
+    padding-right: 5px;
+}
+
+.lista ul li:nth-child(even) {
+    padding: 0 20px;
+}
+
+.card {
+    width: 33.33333%;
+    float: left;
+}
+
+.content {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#card-centrale {
+    margin: 30px 10px 0;
+}
+
+#card-sinistra {
+    margin: 30px 20px 0 0;
+}
+
+#card-destra {
+    margin: 30px 0 0 20px;
+}
+.content img {
+    height: 150px;
+}
+
+.content .lista{
+    text-align: justify;
+}
+
+
 /* fine container THIRD */
 /* inizio container FOURTH */
 .fourth {
-    background-image: linear-gradient(45deg, #00a4bd, #00bda5);:
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 /* fine container FOURTH */
 /* inizio container FIFTH */
