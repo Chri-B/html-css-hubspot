@@ -502,10 +502,19 @@ h2 {
     float: right;
     width: 350px;
 }
+
+.fifth .bottom {
+    padding-bottom: 80px;
+}
 /* fine container FIFTH */
 /* inizio container SIXTH */
 .sixth {
     background-color: #33475b;
+}
+
+.riquadro-elenco {
+    width: 25%;
+    float: left;
 }
 
 footer {
