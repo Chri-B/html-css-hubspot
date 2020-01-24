@@ -179,18 +179,19 @@ button {
     background-position: right;
 }
 
-.second .jumbotron {
+.jumbotron-big {
     width: 37%;
     padding: 80px 0 100px;
 }
 
-h1 {
+.jumbotron-big h1,
+.jumbotron-big h2 {
     color: #33475b;
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-.second .jumbotron p {
+.jumbotron-big p {
     color: #33475b;
     font-weight: 300;
 }
@@ -199,10 +200,10 @@ h1 {
     font-size: 15px;
     font-weight: normal;
     padding: 25px 50px;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
-.second .jumbotron p:last-child {
+.jumbotron-big p:last-child {
     width: 50%;
     font-size: 12px;
 }
@@ -384,9 +385,7 @@ h2 {
     padding: 30px 0 50px;
     margin: 0 auto;
 }
-
 /* stilizzazione tabella */
-
 .tabella {
     padding-bottom: 100px;
 }
@@ -435,6 +434,73 @@ h2 {
 /* inizio container FIFTH */
 .fifth {
     background-color: #ffffff;
+}
+
+.fifth .top {
+    padding: 100px 0 50px;
+}
+
+.n-customer {
+    width: 30%;
+    padding: 0 50px 0 90px;
+    color: #33475b;
+    float: left;
+}
+
+.n-customer h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.n-customer p {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.n-customer span {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.brands {
+    width: 70%;
+    text-align: center;
+    float: left;
+    padding-left: 50px;
+}
+
+.brands .riquadro-brand {
+    float: left;
+    width: 25%;
+}
+
+.brands .riquadro-brand img {
+    width: 110px;
+    margin: 20px 30px;
+}
+
+.fifth .jumbotron-big {
+    float: left;
+}
+
+.fifth .jumbotron-big p:last-child {
+    width: 100%;
+}
+
+.fifth .jumbotron-big h2 {
+    font-size: 30px;
+}
+
+.ritratto {
+    width: 63%;
+    float: right;
+}
+
+.fifth img {
+    margin: 30px;
+    float: right;
+    width: 350px;
 }
 /* fine container FIFTH */
 /* inizio container SIXTH */
