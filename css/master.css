@@ -20,7 +20,7 @@ button {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -33,6 +33,65 @@ button {
     font-size: 12px;
     font-weight: 300;
     padding: 8px 20px;
+}
+/* inizio container fixed-bar */
+.fixed-bar {
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.fixed-bar .lenguage-selector {
+    float: left;
+    line-height: 60px;
+}
+
+.fixed-bar img {
+    width: 16px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.fixed-bar span:not(.symbol) {
+    padding-right: 20px;
+    color: #526274;
+    font-size: 12px;
+    border-right: 1px solid #cbd6e2;
+}
+
+.contact {
+    float: left;
+    line-height: 60px;
+}
+
+.contact a {
+    font-size: 12px;
+    color: #526274;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.cta-fixed-bar {
+    margin-right: 30px;
+    float: right;
+    line-height: 60px;
+}
+
+.login {
+    background-color: #ffffff;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    margin: 0 10px 0 30px;
+}
+
+#magnifyng-glass {
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 /* inizio container HEADER: logo + navbar */
 .header {
@@ -165,7 +224,7 @@ h1 {
 }
 
 .container.small {
-    width: 50%;
+    width: 80%;
     text-align: center;
 }
 
@@ -335,8 +394,8 @@ h2 {
 .riquadro {
     width: 25%;
     float: left;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 30px 10px;
 }
 
