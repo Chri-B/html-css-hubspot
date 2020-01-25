@@ -550,6 +550,16 @@ h2 {
     padding: 10px 20px;
 }
 
+.lenguages {
+    text-align: center;
+    color: #c5d1dd;
+    padding: 50px 0 40px 0 ;
+}
+
+.lenguages li {
+    display: inline-block;
+    margin: 0 20px;
+}
 
 footer {
     border-top: 1px solid #7c98b6;
