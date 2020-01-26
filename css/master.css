@@ -563,5 +563,43 @@ h2 {
 
 footer {
     border-top: 1px solid #7c98b6;
+    position: relative;
+    color: #a7b4c2;
+}
+
+footer #logo-gray {
+    padding: 40px 0;
+}
+
+#copyright {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.privacy {
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.privacy span {
+    margin: 0 20px;
 }
 /* fine container SIXTH */
+/* icona fissa chat */
+.fixed-chat i {
+    color: white;
+    background-color: #425b76;
+    border-radius: 50%;
+    display: inline;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.fixed-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
